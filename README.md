@@ -17,7 +17,7 @@ This project is a collaborative effort undertaken by a pair of developers, where
     - Error Handling.
     - Anonymous Function (IIFE).
     - Dynamic Content Replacement:
-        Upon a user click event, the code replaces content in a designated container (reviewCon) with dynamically fetched data.
+        Upon a user click event, the code replaces content in a designated container (reviewCon).
 
 ## Installation (Manual download and extraction process)
 
