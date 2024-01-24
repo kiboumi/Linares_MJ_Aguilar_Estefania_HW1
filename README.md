@@ -19,8 +19,7 @@ This project is a collaborative effort undertaken by a pair of developers, where
     - Dynamic Content Replacement:
         Upon a user click event, the code replaces content in a designated container (reviewCon) with dynamically fetched data.
 
-## Installation  
-## Manual download and extraction process
+## Installation (Manual download and extraction process)
 
 1. Manually download the repository as a ZIP file from GitHub.
 2. Save it to a specified location.  
