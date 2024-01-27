@@ -47,11 +47,13 @@
                 const template = document.importNode(filmTemplate.content, true);
 
                 const reviewTitle = template.querySelector(".film-title");
+                const reviewImage = template.querySelector(".film-image");
                 const reviewEpisode = template.querySelector(".film-episode");
                 const reviewDescription = template.querySelector(".film-description");
 
 
                 reviewTitle.innerHTML = response.title;
+                reviewImage.src = `images/${response.episode_id}.jpg`;
                 reviewEpisode.innerHTML = "Episode " + response.episode_id;
                 reviewDescription.innerHTML = response.opening_crawl;
 
