@@ -1,7 +1,7 @@
 ![oops, image not found](images/logo.png "Star Wars Icon")
 
 
-# Star Wars API (SWAPI)  
+# LEGO - Star Wars (SWAPI)  
 
 This project is a collaborative effort undertaken by a pair of developers, where we work together to explore and utilize the Star Wars API (SWAPI). In this partner-based endeavor, team up to conduct research and implement various features for the creation of an interactive character/movie guide. The partnership aspect highlights the cooperative nature of the project, emphasizing the collective effort in delving into the SWAPI documentation, understanding JSON data retrieval, and ultimately building a comprehensive guide. 
 
