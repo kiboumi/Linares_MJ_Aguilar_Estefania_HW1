@@ -1,7 +1,7 @@
 (() => {
     const characterBox = document.querySelector("#character-box");
-    const movieTemplate = document.querySelector("#film-template");
-    const movieDescription = document.querySelector("#film-description");
+    const filmTemplate = document.querySelector("#film-template");
+    const filmCon = document.querySelector("#film-con");
 
     const baseURL = `https://swapi.dev/api/`;
 
@@ -46,9 +46,22 @@
             fetch(`${filmID}`)
             .then(response => response.json())
             .then(function(response){
+                filmCon.innerHTML = "";
+
                 console.log(response.title);
+                const template = document.importNode(filmTemplate.content, true);
+                const reviewTitle = template.querySelectorAll(".film-title");
+                reviewTitle.innerHTML = response.title;
+                filmCon.appendChild(template);
+                // const reviewId = template.querySelectorAll(".film-title")
+                // console.log(response.episode_id);
+                // console.log(response.opening_crawl);
             })
-            .catch();
+            // .then()
+            // .then()
+            .catch(error => {
+                console.log(error);
+            })
 
         }
         
