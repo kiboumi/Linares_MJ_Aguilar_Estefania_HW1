@@ -10,15 +10,9 @@ This project is a collaborative effort undertaken by a pair of developers, where
     - DOM Manipulation.
     - Event Handling.
     - Fetch API.
-    - Asynchronous JavaScript.
-    - Dynamic Content Generation.
-    - HTML Template Elements.
-    - Console Logging.
     - Error Handling.
     - Anonymous Function (IIFE).
-    - Dynamic Content Replacement:
-        Upon a user click event, the code replaces content in a designated container (reviewCon).
-
+    - Dynamic Content Replacement.
 ## Installation (Manual download and extraction process)
 
 1. Manually download the repository as a ZIP file from GitHub.
