@@ -10,13 +10,10 @@
         fetch (`${baseURL}people?page=2`)
         .then(response => response.json())
         .then(function(response){
-            // console.log(response.results);
             const character = response.results;
             const ul = document.createElement('ul');
 
             character.forEach(character => {
-                // console.log(character['name']);
-                // console.log(character['created']);
                 const li = document.createElement('li'); 
                 const a = document.createElement('a');
                 a.textContent = character['name'];
@@ -39,8 +36,6 @@
         }
 
         function getFilm(e) {
-            // console.log("getMovie Called");
-            // console.log(this.dataset.films);
 
             const filmID = this.dataset.films;
             fetch(`${filmID}`)
@@ -50,15 +45,22 @@
 
                 console.log(response.title);
                 const template = document.importNode(filmTemplate.content, true);
-                const reviewTitle = template.querySelectorAll(".film-title");
+
+                const reviewTitle = template.querySelector(".film-title");
+                const reviewEpisode = template.querySelector(".film-episode");
+                const reviewDescription = template.querySelector(".film-description");
+
+
                 reviewTitle.innerHTML = response.title;
+                reviewEpisode.innerHTML = "Episode " + response.episode_id;
+                reviewDescription.innerHTML = response.opening_crawl;
+
                 filmCon.appendChild(template);
-                // const reviewId = template.querySelectorAll(".film-title")
-                // console.log(response.episode_id);
-                // console.log(response.opening_crawl);
+                reviewEpisode.appendChild(template);
+                reviewDescription.appendChild(template);
+
             })
-            // .then()
-            // .then()
+
             .catch(error => {
                 console.log(error);
             })
