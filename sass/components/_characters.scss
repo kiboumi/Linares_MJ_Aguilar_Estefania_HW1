@@ -1,14 +1,26 @@
 body {
-    // background-image: url(/images/wallpaper1.jpg);
+    background-image: url(/images/bg1.jpg);
     background-color: #fff;
-    background-repeat: no-repeat;
+    //background-repeat: no-repeat;
     background-size: auto;
     max-width: 100%;
     height: auto;
+    color: rgb(210, 255, 127);
+    font-size: 30px;
     
 }
 
 p {
-    font-size: 80px;
-    color: aliceblue;
+    font-size: 20px;
+    color: aqua;
+    
+}
+
+h2 {
+    color: rgb(255, 127, 223);
+}
+
+h3 {
+    color: rgb(105, 88, 143);
+    font-size: 40px;
 }
