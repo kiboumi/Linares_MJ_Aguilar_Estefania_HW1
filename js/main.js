@@ -4,6 +4,7 @@
     const filmCon = document.querySelector("#film-con");
 
     const baseURL = `https://swapi.dev/api/`;
+    const errorMessageBox = `<img src="images/error-vector.png">`
 
     let spinner = `
   <?xml version="1.0" encoding="utf-8"?>
@@ -94,8 +95,9 @@
             })
         })
         .catch(error => {
-            console.log(error);
-        });
+          mainBox.innerHTML = errorMessageBox;
+          console.error('Oops, there is an error. Please check the API connection and try again ', error);
+      });
         }
 
         function getFilm(e) {
@@ -128,8 +130,9 @@
             })
 
             .catch(error => {
-                console.log(error);
-            })
+              mainBox.innerHTML = errorMessageBox;
+              console.error('Oops, there is an error. Please check the API connection and try again ', error);
+          });
 
         }
         
