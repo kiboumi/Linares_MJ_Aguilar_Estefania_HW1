@@ -16,13 +16,26 @@ body {
     }
 }
 
-p {
+.film-description {
     font-size: 20px;
     color: yellow;
-    padding: 50px;
+    padding: 3px;
     background-color: #08080898;
     font-family: 'Inconsolata', monospace;
-    
+    position: absolute;
+    top: 160%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.film-episode {
+    font-size: 20px;
+    color: yellow;
+    padding: 3px;
+    background-color: #08080898;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
 }
 
 .intro h1 {
@@ -44,8 +57,14 @@ h2 {
 }
 
 h3 {
-    color: rgb(105, 88, 143);
-    font-size: 40px;
+    color: rgb(161, 245, 241);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-family: 'starjedi-webfont';
+    letter-spacing: 5px;
+    font-size: 30px;
+    padding: 10px;
+    background-color: #08080898;
+    text-align: center;
 }
 
 h4 {
@@ -59,4 +78,9 @@ h4 {
 
 .intro p {
     margin-top: 10px;
+    font-size: 20px;
+    color: yellow;
+    padding: 50px;
+    background-color: #08080898;
+    font-family: 'Inconsolata', monospace;
 }
