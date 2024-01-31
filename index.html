@@ -10,22 +10,30 @@
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <script defer src="js/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
     integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
     
   </head>
   <body>
-    <section class="intro">
-    <h1>Cinematic Constellations</h1>
-    <h4>Mapping Star Wars Characters to their Movies and... <br> may the force be with you!</h4>
-    <div class="texto">
-    <p>Welcome to the epic universe of Star Wars! Created by George Lucas, Star Wars is a beloved and iconic science fiction franchise that first graced the silver screen in 1977. Set in a distant galaxy far, far away, the saga unfolds the timeless battle between the forces of good, led by the noble Jedi, and the dark powers of the Sith. Filled with unforgettable characters, intergalactic battles, and the mystical Force, Star Wars has captured the hearts of generations, becoming a cultural phenomenon that extends beyond the realm of cinema. Join us on a journey through this rich tapestry of storytelling, where heroes rise, villains fall, and destinies are shaped by the ever-present Force.
-      <br><br>
-      Explore the Star Wars universe by clicking on characters below to reveal the movies they belong to.</p>
-      </div>
+
+    <!-- <div class="loading-page">
+      <img class="logo-name" src="images/logo.png" alt="main logo">
+    </div> -->
+
+   <div class="grid-con">
+    <section class="col-span-full m-col-span-6 intro">
+      <img id="main-logo" class="grid-con" src="images/sw-logo.png" alt="logo star wars">
+      <h1>Cinematic Constellations</h1>
+      <h4>Mapping Star Wars Characters to their Movies and... may the force be with you!</h4>
+        <div class="texto">
+          <p class="">
+            Explore the Star Wars universe by clicking on characters below to reveal the movies they belong to.
+          </p>
+        </div>
     </section>
+  </div>
     <div class="grid-con">
       <section class="col-span-full m-col-span-6" id="character-box">
         <h2>CHARACTERS</h2>
@@ -48,11 +56,5 @@
       </section>
       
     </div>
-    
-    <div class="loading-page">
-      <img class="logo-name" src="images/logo.png" alt="bb8 gif">
-
-  </div>
-
   </body>
 </html>
