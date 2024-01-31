@@ -5,6 +5,9 @@ body {
     background-attachment: fixed;
     background-size: cover;
     color: aqua;
+    font-family: 'Inconsolata', monospace;
+    
+   
 }
 
 @media only screen and (max-width: 880px) { 
@@ -15,19 +18,45 @@ body {
 
 p {
     font-size: 20px;
-    color: aqua;
+    color: yellow;
+    padding: 50px;
+    background-color: #08080898;
+    font-family: 'Inconsolata', monospace;
     
 }
 
-h1 {
+.intro h1 {
     color: yellow;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'starjedi-webfont';
+    letter-spacing: 4px;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    
 }
 
 h2 {
-    color: rgb(255, 127, 223);
+    color: rgb(247, 15, 15);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-family: 'starjedi-webfont';
+    letter-spacing: 5px;
 }
 
 h3 {
     color: rgb(105, 88, 143);
     font-size: 40px;
+}
+
+h4 {
+    color: rgb(161, 245, 241);
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-family: 'starjedi-webfont';
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+
+.intro p {
+    margin-top: 10px;
 }
