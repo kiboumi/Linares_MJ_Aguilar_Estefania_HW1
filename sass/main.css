@@ -152,6 +152,19 @@ model-viewer > #ar-prompt > img {
   animation: circle 4s linear infinite;
 }
 
+body {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  font-size: 80px;
+  color: aliceblue;
+}
+
 a {
   cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
