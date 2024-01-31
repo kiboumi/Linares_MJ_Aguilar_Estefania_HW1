@@ -36,8 +36,8 @@ Star Wars and all related and associated material are copyright protected.
 
 ## Credits  
 
-Estefania Aguilar - Developer / Designer
-Maria Jose Linares Rico - Developer / Designer
+-Estefania Aguilar - Developer / Designer
+-Maria Jose Linares Rico - Developer / Designer
 
 ## License  
 
