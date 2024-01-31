@@ -4,7 +4,7 @@ body {
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    
+    color: aqua;
 }
 
 @media only screen and (max-width: 880px) { 
@@ -17,6 +17,10 @@ p {
     font-size: 20px;
     color: aqua;
     
+}
+
+h1 {
+    color: yellow;
 }
 
 h2 {
